@@ -1,0 +1,652 @@
+/* ---------------------------------------- */
+/* ==            SUMMARY              */
+/*---------------------------------------- */
+
+/* L		- 1 - */
+/* L		- 2 - */
+/* L		- 3 - */
+
+/* ---------------------------------------- */
+/* ==       COLOR CODES           */
+/*---------------------------------------- */
+/*
+	header footer Vert: rgb(87,156 ,135); 
+	jaune H1 : rgb(253,203 ,70);
+	la note enchantéé: rgb(252,223,219);texte rgb(60,18,24)
+	le chic a la francaise: rgb(255,245,254); texte rgb(198,116,18) puis rgb(144,91,253)
+	le delice : rgb(249,249,249); texte rgb(108,178,249)
+	la palette: rgb(253,253,255); texte rgb(114,191,86)
+	menu 2 rgb(198,116,18)  rgb(165,103,153) rgb(110,76,204)
+
+*/
+
+
+/*
+/* ---------------------------------------- */
+/* == DÉFINITIONS DES POLICES*/
+/*---------------------------------------- */
+/*tahoma
+
+/* ---------------------------------------- */
+/* == ÉLÉMENTS PRINCIPAUX */
+/*---------------------------------------- */
+body {
+	margin: auto;
+	font-family: tahoma;
+}
+
+/* ---------------------------------------- */
+/* ==            HEADER                */
+/*---------------------------------------- */
+
+header {
+	background-color: rgb(87,156 ,135);
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header h1 {
+	color:  rgb(253,203 ,70);
+	font-size: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+	
+    text-decoration: none;
+}
+
+/* ---------------------------------------- */
+/* ==         MENUS INDEX ASPECTS GENERAUX    -----   */
+/*---------------------------------------- */
+
+h1 {
+	text-align: center;
+}
+
+#menus {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+article  {
+	width: 80%;
+	margin: 30px;
+	box-shadow: 0 0 7px darkgrey;
+	height: 450px;
+	text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article h2 {
+	font-size: 30px;
+}
+img {
+	overflow: hidden;
+}
+
+article a:hover {
+    animation: zoom_opacity 1s linear forwards	;
+}
+
+article a:hover {
+    -webkit-animation: zoom_opacity 1s linear forwards;
+}
+@keyframes zoom_opacity {
+    0% {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+h3 {
+	font-size: 32px;
+}
+/* ------------------------------------------------------------------------------------------- */
+/* ==            INDEX LA NOTE              -------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------- */
+
+#note {
+	background-color: rgb(252,223,219);
+	
+}
+#note h2  {
+	font-family: 'Kaushan Script', cursive;
+	
+}
+
+#note a {
+	color: rgb(61,19,25);
+}
+
+i {
+	background: #FF5F6D;  /* fallback for old browsers */
+	background: linear-gradient(to left, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   	background-clip: text;
+   	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent; 
+ 	-moz-text-fill-color: transparent;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* ==            INDEX LE CHIC             -------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------- */
+
+#chic {
+	background-color:  rgb(255,245,254);
+}
+
+#chic h2 {
+	font-family: 'Yeseva One', cursive;
+}
+
+#chic a {
+	color: rgb(206,125,78);
+}
+
+#chic h2 {
+	background: #D38312;  /* fallback for old browsers */
+	background: linear-gradient(to right, #D38312, rgb(144,91,253) 60%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;		
+}
+
+#chic h3 {
+	font-family: 'Yeseva One', cursive;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* ==            INDEX LE DELICE             -------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------- */
+
+#delice {
+	background-color: rgb(249,249,249);
+}
+
+#delice h2 {
+	font-family: 'Dancing Script', cursive;
+}
+
+#delice a {
+	background: #0052D4;  /* fallback for old browsers */
+	background: linear-gradient(to left, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* ==            INDEX LA PALETTE             -------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------- */
+#palette {
+	background-color: rgb(253,253,255);
+}
+
+#palette h2 {
+	font-family: 'Kaushan Script', cursive;
+}
+
+#palette a {
+	background: #074C00; /* fallback for old browsers */
+	background: linear-gradient(to right, #074C00,#42A341,#B8E2A3);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}	
+
+.comic {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: italic;
+}
+
+
+/* ---------------------------------------- */
+/* ==            prochainement               */
+/*---------------------------------------- */
+
+#proch {
+	background-color: rgb(87,156 ,135);
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: rgb(253,203 ,70);
+    font-size: x-large;
+    align-items: center;
+    height: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 120px;
+   
+}
+
+#proch p {
+	font-family: tahoma;
+}
+ 
+.points {
+	 
+  font-size: 30px;
+}
+
+.points:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 2000ms infinite;      
+  animation: ellipsis steps(4,end) 2000ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+ 
+ /* ---------------------------------------- */
+/* ==            footer               */
+/*---------------------------------------- */
+
+footer {
+	background-color: rgb(87,156 ,135);
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+footer a {
+	color: rgb(253,203 ,70);
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    margin: 30px;
+}
+
+ /* ---------------------------------------- -------------------------------------------*/
+/* ==            Pages individuelles des menus 1-4--------------------------------------------*/
+/*---------------------------------------- ----------------------------------------------------------*/
+
+
+/*========================================================================================== */
+/* ===================================== Page LA NOTE  ====================================== */
+/*========================================================================================== */
+
+.lanote {
+	text-align: center;
+    width:80%;
+    height: auto;
+    box-shadow: 0 0 7px darkgrey;
+    background-color: rgb(252,223,219);
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.lanote h1 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 44px;
+	margin: 30px;
+	color: rgb(60,18,24);
+}
+
+section i {
+	margin-top: 50px;
+}
+
+.lanote a  {
+	font-family: 'Indie Flower', cursive;
+	font-style: oblique;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.lanote p {
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+}
+
+.trait	{
+	text-decoration:none;
+	display: inline; 
+	color:black;
+}
+
+.trait:after 
+{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease; /* .5 seonds for changes to the width and background-color */
+	-webkit-transition: width .5s ease, background-color .5s ease; /* Chrome and Safari */
+	-moz-transition: width .5s ease, background-color .5s ease; /* FireFox */
+}
+
+.trait:hover:after 
+{
+width: 100%;
+background: black;
+}
+
+.lanote img {
+	width:35%;
+}
+
+.lanote .platprix p {
+	margin: 0;
+}
+
+
+.footmenu h1 {
+	margin-left: 10px;
+}
+
+/*========================================================================================== */
+/* ===================================== Page LE DELICE  ====================================== */
+/*========================================================================================== */
+
+
+.ledelice {
+	text-align: center;
+    width:80%;
+    height: auto;
+    box-shadow: 0 0 7px darkgrey;
+    background-color:rgb(237,239,239) ;
+    margin: auto;
+    margin-bottom: 150px;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+
+.ledelice .degra3  {
+	font-family: 'Dancing Script', cursive;
+	background: #0052D4;  /* fallback for old browsers */
+	background: linear-gradient(to left, #6FB1FC , #4364F7 , #0052D4 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  font-size: 55px;
+	  padding-top: 40px;
+}
+
+.ledelice p {
+	color: black;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+.ledelice a  {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold
+}
+
+.ledelice img {
+	width:35%;
+}
+
+.ledelice .platprix p {
+	margin: 0;
+	font-size: 25px;
+}
+
+
+/*========================================================================================== */
+/* ===================================== Page LE CHIC  ====================================== */
+/*========================================================================================== */
+
+.lechic {
+	text-align: center;
+    width:80%;
+    height: auto;
+    box-shadow: 0 0 7px darkgrey;
+    background-color:rgb(255,245,254) ;
+    margin: auto;
+    margin-bottom: 150px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.lechic .degra2 {
+	font-family: 'Yeseva One', cursive;
+	background: #D38312;  /* fallback for old browsers */
+	background: linear-gradient(to left, rgb(144,91,253), #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	font-size: 44px;
+  	font-weight: bold;
+}
+
+.lechic p  {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+}
+
+.lechic a  {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.lechic img {
+	width:35%;
+}
+
+.lechic .platprix p {
+	margin: 0;
+}
+#appetit  {
+	color: rgb(198,116,18);
+}
+
+#papilles {
+	color:  rgb(165,103,153);
+}
+
+#gourmandises {
+	color: rgb(110,76,204);
+	padding-bottom: 50px;			/*A VOIR*/
+}
+
+#appetit a {
+	color: rgb(198,116,18);
+}
+
+#papilles a {
+	color:  rgb(165,103,153);
+}
+
+#gourmandises a {
+	color: rgb(110,76,204);
+}
+
+
+/*========================================================================================== */
+/* ===================================== Page LA PALETTE  ====================================== */
+/*========================================================================================== */
+
+.lapalette {
+	text-align: center;
+    width:80%;
+    height: auto;
+    box-shadow: 0 0 7px darkgrey;
+    background-color:rgb(253,253,255) ;
+    margin: auto;
+    margin-bottom: 150px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.lapalette  a {
+	font-family: 'Indie Flower', cursive;
+	color: black;
+}
+#lapalettetitre {
+	background: #074C00; /* fallback for old browsers */
+    background: linear-gradient(to right,  #074C00	,#42A341,#B8E2A3);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-family: 'Kaushan Script', cursive;
+    font-size: xxx-large;
+    
+}
+
+.lapalette p  {
+	font-family: 'Indie Flower', cursive;
+	font-size: x-large;
+}
+
+.lapalette img {
+	width:35%;
+}
+
+.lapalette .platprix p {
+	margin: 0;
+}
+
+.prix {
+	font-weight: bold;
+}
+
+/*==============================================================================*/
+
+section  {
+	margin-bottom: 150px;
+}
+
+.titres {
+	display: flex;
+	align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: bold;
+ 	margin: 30px;
+ 	padding-top: 70px;
+}
+
+.platprix {
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+}
+
+
+
+footer a:hover {
+    animation: shake 1s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-2px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(2px, 2px) rotate(0deg);
+    }
+
+    30% {
+        transform: translate(-2px, 2px) rotate(1deg);
+    }
+
+    40% {
+        transform: translate(2px, -2px) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(0px, 0px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-2px, -2px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(2px, 2px) rotate(1deg);
+    }
+
+    80% {
+        transform: translate(-2px, 2px) rotate(0deg);
+    }
+
+    90% {
+        transform: translate(2px, -2px) rotate(-1deg);
+    }
+
+    100% {
+        transform: translate(0px,0px) rotate(0deg);
+    }
+}
+
+/* ---------------------------------------- */
+/* ==            MEDIA QUERY                    */
+/*---------------------------------------- */
+
+@media only screen and (min-width: 768px) {
+
+	
+	
+	#menus {
+		display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    	flex-direction: row;
+	}
+
+	#menus article {
+		width: 33%;
+		height: 550px;
+	}
+
+	#proch {
+		width: 35%;
+		font-size: 38px;
+		height: 70px;
+		letter-spacing: 4px;
+		margin-bottom: 200px;
+    	margin-top: 100px;
+	}
+
+	.platprix {
+		display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    margin-right: 150px;
+	    margin-left: 150px;
+	}
+
+	.dessert {
+		text-align: left;
+		margin-left: 150px;
+	}
+
+	.footmenu {
+	display: flex;
+	align-items: baseline;
+    justify-content: center;
+	}
+}
